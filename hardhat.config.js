@@ -2,8 +2,8 @@ require("@nomicfoundation/hardhat-toolbox");
 require("@chainlink/env-enc").config();
 
 const SEPOLIA_URL = process.env.SEPOLIA_URL; // 没有注册成功对应的账号
-const SEPOLIA_PRIVATE_KEY = process.env.SEPOLIA_PRIVATE_KEY; //待完善，需要获取对应的私钥
-// const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
+const SEPOLIA_PRIVATE_KEY = process.env.ETHERSCAN_API_KEY; //待完善，需要获取对应的私钥
+// const ETHERSCAN_API_KEY = process.env.PRIVATE_KEY_ME;
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
