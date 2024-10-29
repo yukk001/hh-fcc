@@ -3,8 +3,6 @@ node_modules
 .encryptedKey.json
 SimpleStorage_sol_*
 .notes.md
-node_modules
-.env
 
 # Hardhat files
 /cache
